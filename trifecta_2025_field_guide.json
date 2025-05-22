@@ -1,0 +1,289 @@
+{
+  "title": "Trifecta 2025 Expedition Field Guide",
+  "version": "2.5",
+  "convoy_roster": [
+    {
+      "name": "KG + Brady",
+      "vehicle": "2020 F-250 Tremor",
+      "features": ["Warn winch", "Starlink", "Skottle", "M18 inverter", "Howl propane fire"],
+      "cleanliness": "always dirty"
+    },
+    {
+      "name": "Vberg + Colin",
+      "vehicle": "2022 Ford Raptor 37",
+      "features": ["Baja Designs", "GMRS radio"],
+      "cleanliness": "always clean"
+    },
+    {
+      "name": "Zach + Ben",
+      "vehicle": "2025 Ineos Grenadier",
+      "features": ["lockers", "trail-rated", "GMRS radio"],
+      "cleanliness": "new"
+    },
+    {
+      "name": "Dan",
+      "vehicle": "2025 4Runner Trail Edition",
+      "joins": "Platoro",
+      "departs": "Wednesday AM (5/28)",
+      "cleanliness": "new"
+    }
+  ],
+  "comms": "GMRS Channel 16",
+  "navigation": ["Garmin Baja Chase", "OnX GPX"],
+  "power": ["M18 system (lantern, coffee grinder, inverter)"],
+  "recovery": {
+    "tools": [
+      "Warn winch",
+      "20’ Bubba Rope in SeaLine dry bag",
+      "soft shackles",
+      "ceramic ring",
+      "15K hitch shackle"
+    ]
+  },
+  "fire_policy": "Howl propane fire only",
+  "notes": [
+    "Dan departs the convoy on Wednesday morning (5/28) to head home."
+  ],
+  "days": [
+    {
+      "date": "5/24",
+      "day": "Saturday",
+      "title": "Austin to Angel Fire",
+      "route": "Austin → Lubbock → Clovis → Angel Fire",
+      "miles": {
+        "onroad": 670,
+        "offroad": 0
+      },
+      "meals": {
+        "breakfast": "On the road",
+        "lunch": "NOT COOKING",
+        "dinner": "COOKING"
+      },
+      "camp": {
+        "type": "dispersed",
+        "location": "Angel Fire",
+        "coordinates": "36.3961, -105.2841"
+      },
+      "resupply": false,
+      "temps": { "high": "70°F", "low": "35–40°F" },
+      "summary": "Long day of highway travel. Setup camp and enjoy a warm meal under cool skies."
+    },
+    {
+      "date": "5/25",
+      "day": "Sunday",
+      "title": "Angel Fire to Platoro",
+      "route": "Angel Fire → Conejos River Anglers → Platoro",
+      "miles": {
+        "onroad": 180,
+        "offroad": 15
+      },
+      "meals": {
+        "breakfast": "The Bakery, Angel Fire",
+        "lunch": "NOT COOKING",
+        "dinner": "COOKING"
+      },
+      "camp": {
+        "type": "dispersed",
+        "location": "Conejos River",
+        "coordinates": "37.26108, -106.46931"
+      },
+      "resupply": false,
+      "fishing": "Trophy water, dry/dropper section",
+      "temps": { "high": "65°F", "low": "30–35°F" },
+      "summary": "Transition day into alpine trout country with your first dirt miles. Camp is set on the banks of the Conejos River with time to fish before sunset."
+    },
+    {
+      "date": "5/26",
+      "day": "Monday",
+      "title": "Rest Day at Platoro",
+      "route": "None — stay at same dispersed site",
+      "miles": {
+        "onroad": 0,
+        "offroad": 5
+      },
+      "meals": {
+        "breakfast": "COOKING",
+        "lunch": "COOKING",
+        "dinner": "COOKING"
+      },
+      "camp": {
+        "type": "dispersed",
+        "location": "Conejos River",
+        "coordinates": "37.26108, -106.46931"
+      },
+      "resupply": false,
+      "fishing": "All day — Conejos River & Warner Creek",
+      "temps": { "high": "65°F", "low": "35°F" },
+      "summary": "A full day of fishing, relaxing, or tinkering with gear in the high alpine river valley. A break from the road before the overland push begins. Bears active — secure food."
+    },
+    {
+      "date": "5/27",
+      "day": "Tuesday",
+      "title": "Traverse to Rimrocker Start",
+      "route": "Platoro → Pagosa → Durango → Silverton → Ouray → Montrose",
+      "miles": {
+        "onroad": 240,
+        "offroad": 0
+      },
+      "meals": {
+        "breakfast": "COOKING",
+        "lunch": "NOT COOKING (Avalanche Brewing Co., Silverton)",
+        "dinner": "COOKING"
+      },
+      "activities": ["Silverton public showers (Anesi Park) before lunch"],
+      "camp": {
+        "type": "dispersed",
+        "location": "Near Rimrocker Start",
+        "coordinates": "38.23747, -108.02561"
+      },
+      "resupply": true,
+      "resupply_location": "Durango",
+      "temps": { "high": "70°F", "low": "45°F" },
+      "summary": "Big travel day. High mountain passes, resupply in Durango, showers in Silverton, and a late camp setup near the start of Rimrocker."
+    },
+    {
+      "date": "5/28",
+      "day": "Wednesday",
+      "title": "Rimrocker Trail Day 1",
+      "route": "Begin Rimrocker westbound",
+      "miles": {
+        "onroad": 10,
+        "offroad": 55
+      },
+      "meals": {
+        "breakfast": "COOKING",
+        "lunch": "COOKING",
+        "dinner": "COOKING"
+      },
+      "air_down": "38.4362, -107.9799 (30–32 PSI)",
+      "camp": {
+        "type": "dispersed",
+        "location": "Dark Canyon Lake",
+        "coordinates": "38.4030, -108.8152"
+      },
+      "fishing": "Evening opportunity at Dark Canyon Lake",
+      "resupply": false,
+      "temps": { "high": "75°F", "low": "40°F" },
+      "summary": "First Rimrocker travel day. Camp at scenic Dark Canyon Lake if accessible. Quiet alpine site with fishing access."
+    },
+    {
+      "date": "5/29",
+      "day": "Thursday",
+      "title": "Rest Day at Dark Canyon Lake",
+      "route": "None — stay put at Dark Canyon Lake",
+      "miles": {
+        "onroad": 0,
+        "offroad": 3
+      },
+      "meals": {
+        "breakfast": "COOKING",
+        "lunch": "COOKING",
+        "dinner": "COOKING"
+      },
+      "camp": {
+        "type": "dispersed",
+        "location": "Dark Canyon Lake",
+        "coordinates": "38.4030, -108.8152"
+      },
+      "fishing": "Full day",
+      "resupply": false,
+      "temps": { "high": "70°F", "low": "35°F" },
+      "summary": "Full rest and fishing day at Dark Canyon Lake. Cool alpine air, trout water, and low mileage make this a key recharge stop."
+    },
+    {
+      "date": "5/30",
+      "day": "Friday",
+      "title": "Enter White Rim",
+      "route": "Dark Canyon Lake → Moab → Canyonlands → Shafer Trail",
+      "miles": {
+        "onroad": 90,
+        "offroad": 45
+      },
+      "meals": {
+        "breakfast": "COOKING",
+        "lunch": "NOT COOKING (Moab)",
+        "dinner": "COOKING"
+      },
+      "morning_split": {
+        "KG + Brady": "Ride Slickrock",
+        "Zach + Ben": "Corona Arch rope swing",
+        "Vberg + Colin": "Slow morning, meet for lunch"
+      },
+      "air_down": "30–32 PSI",
+      "camp": {
+        "type": "designated",
+        "location": "Airport A",
+        "coordinates": "38.4063, -109.8125"
+      },
+      "resupply": true,
+      "resupply_location": "Moab",
+      "temps": { "high": "85°F", "low": "50°F" },
+      "summary": "Moab activities in the morning, including Slickrock and Corona Arch (Zach only), then White Rim entry via Shafer. Camp at Airport A."
+    },
+    {
+      "date": "5/31",
+      "day": "Saturday",
+      "title": "Finish White Rim → Alta Lakes",
+      "route": "Exit via Potash → Moab → Telluride → Alta Lakes",
+      "miles": {
+        "onroad": 140,
+        "offroad": 50
+      },
+      "meals": {
+        "breakfast": "COOKING",
+        "lunch": "NOT COOKING (Moab)",
+        "dinner": "NOT COOKING (Telluride brewery)"
+      },
+      "air_up": "Moab",
+      "camp": {
+        "type": "dispersed",
+        "location": "Alta Lakes",
+        "coordinates": "37.8846, -107.8612"
+      },
+      "resupply": true,
+      "resupply_location": "Moab or Monticello",
+      "temps": { "high": "65°F", "low": "35°F" },
+      "summary": "Wrap up White Rim in the morning, enjoy a lunch stop in Moab, then drive to Telluride for dinner and high alpine camping at Alta Lakes."
+    },
+    {
+      "date": "6/1",
+      "day": "Sunday",
+      "title": "Alta Lakes to Las Vegas, NM",
+      "route": "Alta Lakes → Durango → Pagosa → Chama → Las Vegas, NM",
+      "miles": {
+        "onroad": 315,
+        "offroad": 5
+      },
+      "meals": {
+        "breakfast": "COOKING",
+        "lunch": "NOT COOKING (on the road)",
+        "dinner": "NOT COOKING (restaurant or hotel)"
+      },
+      "camp": {
+        "type": "hotel",
+        "location": "Las Vegas, NM"
+      },
+      "resupply": true,
+      "temps": { "high": "85°F", "low": "65°F" },
+      "summary": "Scenic transition day across southern Colorado and northern New Mexico. Overnight in Las Vegas sets up a clean push to Austin."
+    },
+    {
+      "date": "6/2",
+      "day": "Monday",
+      "title": "Las Vegas, NM to Austin",
+      "route": "Las Vegas → Clovis → Lubbock → Austin",
+      "miles": {
+        "onroad": 700,
+        "offroad": 0
+      },
+      "meals": {
+        "breakfast": "NOT COOKING (hotel)",
+        "lunch": "NOT COOKING",
+        "dinner": "NOT COOKING"
+      },
+      "resupply": "Optional",
+      "temps": { "high": "90°F", "low": "75°F" },
+      "summary": "Final push to Austin. Long but direct highway day to return home and close the loop on Trifecta 2025."
+    }
+  ]
+}
